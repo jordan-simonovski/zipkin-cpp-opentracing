@@ -14,6 +14,7 @@ public:
   const std::string SPAN_ID = "id";
   const std::string SPAN_TIMESTAMP = "timestamp";
   const std::string SPAN_DURATION = "duration";
+  const std::string SPAN_TAGS = "tags";
   const std::string SPAN_ANNOTATIONS = "annotations";
   const std::string SPAN_BINARY_ANNOTATIONS = "binaryAnnotations";
 

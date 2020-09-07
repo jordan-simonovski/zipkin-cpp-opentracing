@@ -178,7 +178,7 @@ const std::string Span::toJson() {
   }
   JsonUtil::addArrayToJson(
       json_string, binary_annotation_json_vector,
-      ZipkinJsonFieldNames::get().SPAN_BINARY_ANNOTATIONS.c_str());
+      ZipkinJsonFieldNames::get().SPAN_TAGS.c_str());
 
   return json_string;
 }
